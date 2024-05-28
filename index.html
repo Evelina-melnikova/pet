@@ -144,7 +144,6 @@
         <section class="popular-destinations">
             <p class="popular-destinations__text">по версии отдыхающих</p>
             <h6 class="popular-destinations__title">Популярные направления</h6>
-            <!-- <div class="popular-destinations_wrapper"> -->
             <div id="carouselExampleFade" class="carousel slide carousel-fade popular-destinations_wrapper">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -182,18 +181,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="true" data-bs-slide="prev">
-                    <span aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="true" data-bs-slide="next">
-                    <span aria-hidden="true"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
                 </button>
 
                 <button class="popular-destinations__button">Рейтинг направлений</button>
             </div>
 
             <div class="popular-destinations_wrapper popular-destinations_wrapper-laptop">
-                <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/фоновое изображение.jpg" class="d-block " alt="...">
                         <div class="popular-destinations__rating">
@@ -228,19 +226,8 @@
                             <p class="popular-destinations__tour-price">230 $</p>
                         </div>
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span aria-hidden="true"></span>
-                </button>
-
                 <button class="popular-destinations__button">Рейтинг направлений</button>
             </div>
-            <!-- </div> -->
         </section>
     </main>
     <footer class="footer">

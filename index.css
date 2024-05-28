@@ -634,6 +634,14 @@
         align-items: center;
     }
 
+    .popular-destinations_wrapper-laptop {
+        display: none;
+    }
+
+    .carousel-control {
+        top: 210px;
+        position: absolute;    }
+
     .popular-destinations__rating-img {
         position: relative;
         width: 24px;
