@@ -704,6 +704,7 @@
         border-radius: 4px 0px 0px 0px;
         background: #1A3E3E;
         margin-top: 32px;
+        margin-bottom: 50px;
 
         font-family: 'Nunito Sans', sans-serif;
         font-size: 16px;
@@ -712,7 +713,6 @@
         letter-spacing: 0.012em;
         text-align: left;
         color: #FDFDFD;
-
     }
 
 }
