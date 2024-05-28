@@ -603,6 +603,12 @@
         position: absolute;
     }
 
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .d-block {
         width: 100%;
         height: 400px;
@@ -613,11 +619,100 @@
         width: 285px;
     }
 
+    .popular-destinations__rating {
+        position: absolute;
+        width: 70px;
+        height: 32px;
+        top: 36.8px;
+        left: 215px;
+        padding: 4px 8px 4px 8px;
+        gap: 10px;
+        border-radius: 4px 0px 0px 4px;
+        opacity: 0px;
+        background: #FDFDFD66;
+        display: flex;
+        align-items: center;
+    }
+
     .popular-destinations__rating-img {
         position: relative;
         width: 24px;
         height: 24px;
-        top: 50px;
+        /* top: 50px;
+        left: 241px; */
+        /* margin-left: 8px; */
+    }
+
+    .popular-destinations__rating-number {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        color: #1A3E3E;
+        position: relative;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        /* margin-right: 8px; */
+    }
+
+    .popular-destinations__tour {
+        width: 100%;
+        position: absolute;
+        height: 69px;
+        top: 331px;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF33;
+        backdrop-filter: blur(2px);
+        border-radius: 0px 0px 32px 32px;
+    }
+
+    .popular-destinations__tour-name {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+        color: #FDFDFD;
+        margin: 0;
+    }
+
+    .popular-destinations__tour-price {
+        background: #FFFFFF4D;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        color: #FDFDFD;
+        margin: 0;
+        width: 67px;
+        height: 30px;
+        padding: 6px 12px 6px 12px;
+        border-radius: 4px;
+    }
+
+    .popular-destinations__button {
+        border: none;
+        width: 220px;
+        height: 44px;
+        padding: 12px 24px 12px 24px;
+        border-radius: 4px 0px 0px 0px;
+        background: #1A3E3E;
+        margin-top: 32px;
+
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: #FDFDFD;
+
     }
 
 }
