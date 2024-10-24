@@ -16,7 +16,6 @@ const closeOverlayPopup = function (evt) {
 
 function openPopup(popup) {
     popup.classList.add('popup_opened');
-    // document.addEventListener('keydown', closepopupEsc)
 };
 
 
@@ -59,43 +58,32 @@ document.addEventListener('DOMContentLoaded', () => {
     carouselItems.forEach(item => {
         const ratingNumber = item.querySelector('.popular-destinations__rating');
         const hoverText = item.querySelector('.hover-text');
-        const tourBlock = item.querySelector('.popular-destinations__tour'); // Получаем элемент popular-destinations__tour
+        const tourBlock = item.querySelector('.popular-destinations__tour'); 
 
         item.addEventListener('mouseenter', function () {
-            // Добавляем класс hovered
             this.classList.add('hovered');
 
-            // Добавляем новый класс к блоку popular-destinations__tour
             if (tourBlock) {
-                tourBlock.classList.add('hoveredTour'); // Добавьте нужный класс
+                tourBlock.classList.add('hoveredTour'); 
             }
-
-            // Убираем класс у элемента с рейтингом
             if (ratingNumber) {
                 ratingNumber.classList.remove('visible');
             }
 
-            // Показываем текст
             if (hoverText) {
                 hoverText.style.display = 'block';
             }
         });
 
         item.addEventListener('mouseleave', function () {
-            // Убираем класс hovered
             this.classList.remove('hovered');
 
-            // Убираем новый класс у блока popular-destinations__tour
             if (tourBlock) {
-                tourBlock.classList.remove('hoveredTour'); // Уберите нужный класс
+                tourBlock.classList.remove('hoveredTour'); 
             }
-
-            // Возвращаем класс у элемента с рейтингом
             if (ratingNumber) {
                 ratingNumber.classList.add('visible');
             }
-
-            // Скрываем текст
             if (hoverText) {
                 hoverText.style.display = 'none';
             }
@@ -113,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const subscribeButton = section.querySelector('.email-more');
         const errorMessage = section.querySelector('.error-message');
 
-        // Функция для валидации email
         function validateEmail() {
             const emailValue = emailInput.value.trim();
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -127,23 +114,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Валидация в реальном времени
         emailInput.addEventListener('input', validateEmail);
 
-        // Обработка нажатия кнопки подписки
         subscribeButton.addEventListener('click', (event) => {
             const emailValue = emailInput.value.trim();
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-            // Проверка перед выполнением действия подписки
             if (!emailPattern.test(emailValue)) {
-                validateEmail(); // Проверяем ещё раз перед подпиской
-                event.preventDefault(); // Отменяем действие кнопки
+                validateEmail(); 
+                event.preventDefault(); 
             } else {
-                // Логика для успешной подписки
-                errorMessage.textContent = 'Спасибо за подписку!';
-                errorMessage.style.color = 'green'; // Изменяем цвет сообщения
-                errorMessage.style.display = 'block';
             }
         });
     });
