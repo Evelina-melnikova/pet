@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
     <title>РУМТИБЕТ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body class="page">
@@ -21,30 +22,17 @@
             <img class="header_logo" src="./images/Group 19 1.svg">
             <!-- <div class="header_wrapper"> -->
             <nav class="header__nav">
-                <a href="">
+                <a href="#main">
                     <button class="nav_text nav_text-main">Главная</button>
                 </a>
-                <a href=".">
-                    <button class="nav_text nav_text-about">Про гида</button>
-                </a>
-                <a href=".">
-                    <button class="nav_text nav_text-logistics">Программа тура</button>
-                </a>
-                <a href=".">
-                    <button class="nav_text nav_text-suppliers">Стоимость</button>
-                </a>
-                <a href=".">
-                    <button class="nav_text nav_text-contacts">Блог</button>
-                </a>
-                <a href=".">
-                    <button class="nav_text nav_text-contacts">Контакты</button>
-                </a>
+                <a href="#gid" class="nav_text nav_text-about">Про гида </a>
+                <a href="#program" class="nav_text nav_text-logistics">Программа тура</a>
+                <a href="#price-laptop" class="nav_text nav_text-suppliers">Стоимость</a>
+                <a href="#blog-laptop" class="nav_text nav_text-contacts">Блог</a>
+                <a href="#contacts" class="nav_text nav_text-contacts">Контакты</a>
                 <button class="header__nav-button">Консультация</button>
             </nav>
             <button class="header__menu"></button>
-            <!-- <button class="header_langs" src="./images/langs.svg" type="button"></button>
-                <button class="header_menu" type="button"></button> -->
-            <!-- </div> -->
         </header>
         <h1 class="first-img_title">Насладись прогулкой в горах с командой единомышленников</h1>
         <nav class="program_search">
@@ -57,7 +45,7 @@
             </div>
             <div class="program_search-wrapper program_search-wrapper__hike">
                 <div class="program_search-container program_search-container__hike">
-                    <p class="program_search-text program_search-text__hike">Дата похода</p>
+                    <p class="program_search-text program_search-text__hike"> Дата похода</p>
                     <button class="program_search-button hike-button"></button>
                 </div>
                 <p class="subtitle hike_subtitle">укажите диапазон</sppan>
@@ -74,7 +62,7 @@
         </nav>
     </section>
     <main class="content">
-        <section class="about-tour">
+        <section id="gid" class="about-tour">
             <div class="about-tour_container">
                 <div class="about-tour_container-img">
                     <img class="about-tour__img about-tour__img-left" src="./images/Rectangle 5.jpg">
@@ -93,7 +81,7 @@
                 </div>
             </div>
         </section>
-        <section class="best-programs">
+        <section id="program" class="best-programs">
             <div class="best-programs_container">
                 <div class="best-programs_container__with-text">
                     <p class="best-programs__text">наше предложение</p>
@@ -141,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <section class="popular-destinations">
+        <section id="price" class="popular-destinations">
             <p class="popular-destinations__text">по версии отдыхающих</p>
             <h6 class="popular-destinations__title">Популярные направления</h6>
             <div id="carouselExampleFade" class="carousel slide carousel-fade popular-destinations_wrapper">
@@ -181,60 +169,397 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
                     <span class="carousel-control carousel-control-prev-icon" aria-hidden="true"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
                     <span class="carousel-control carousel-control-next-icon" aria-hidden="true"></span>
                 </button>
 
                 <button class="popular-destinations__button">Рейтинг направлений</button>
             </div>
-
+        </section>
+        <section id="price-laptop" class="popular-destinations popular-destinations__laptop">
+            <p class="popular-destinations__text">по версии отдыхающих</p>
+            <h6 class="popular-destinations__title">Популярные направления</h6>
             <div class="popular-destinations_wrapper popular-destinations_wrapper-laptop">
-                    <div class="carousel-item active">
-                        <img src="./images/фоновое изображение.jpg" class="d-block " alt="...">
-                        <div class="popular-destinations__rating">
-                            <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
-                            <p class="popular-destinations__rating-number">4.9</p>
-                        </div>
-                        <div class="popular-destinations__tour">
-                            <p class="popular-destinations__tour-name">Озеро возле гор</p>
+                <div class="carousel-item__laptop">
+                    <img src="./images/фоновое изображение.jpg" class="popular-destinations__img" alt="...">
+                    <div class="popular-destinations__rating visible">
+                        <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
+                        <p class="popular-destinations__rating-number">4.9</p>
+                    </div>
+                    <div class="popular-destinations__tour">
+                        <div class="wrapper__hover">
+                            <div>
+                                <p class="popular-destinations__tour-name">Озеро возле гор</p>
+                                <p class="popular-destinations__tour-subtitle">романтическое приключение</p>
+                            </div>
                             <p class="popular-destinations__tour-price">480 $</p>
                         </div>
-
+                        <p class="hover-text" style="display: none;">Его корни уходят в один фрагмент классической
+                            латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор
+                            латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                            Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./images/фоновое изображение (1).jpg" class="d-block" alt="...">
-                        <div class="popular-destinations__rating">
-                            <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
-                            <p class="popular-destinations__rating-number">4.5</p>
-                        </div>
-                        <div class="popular-destinations__tour">
-                            <p class="popular-destinations__tour-name">Ночь в горах</p>
+                </div>
+                <div class=" carousel-item__laptop">
+                    <img src="./images/фоновое изображение (1).jpg" class="popular-destinations__img" alt="...">
+                    <div class="popular-destinations__rating visible">
+                        <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
+                        <p class="popular-destinations__rating-number">4.5</p>
+                    </div>
+                    <div class="popular-destinations__tour">
+                        <div class="wrapper__hover">
+                            <div>
+                                <p class="popular-destinations__tour-name">Ночь в горах</p>
+                                <p class="popular-destinations__tour-subtitle">в компании друзей</p>
+                            </div>
                             <p class="popular-destinations__tour-price">500 $</p>
                         </div>
+                        <p class="hover-text" style="display: none;">Его корни уходят в один фрагмент классической
+                            латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор
+                            латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                            Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./images/фоновое изображение (2).jpg" class="d-block" alt="...">
-                        <div class="popular-destinations__rating">
-                            <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
-                            <p class="popular-destinations__rating-number">5.0</p>
-                        </div>
-                        <div class="popular-destinations__tour">
-                            <p class="popular-destinations__tour-name">Йога в горах</p>
+                </div>
+                <div class="carousel-item__laptop ">
+                    <img src="./images/фоновое изображение (2).jpg" class="popular-destinations__img" alt="...">
+                    <div class="popular-destinations__rating visible">
+                        <img class="popular-destinations__rating-img" src="./images/Vector (1).svg" alt="">
+                        <p class="popular-destinations__rating-number">5.0</p>
+                    </div>
+                    <div class="popular-destinations__tour">
+                        <div class="wrapper__hover">
+                            <div>
+                                <p class="popular-destinations__tour-name">Йога в горах</p>
+                                <p class="popular-destinations__tour-subtitle">для тех, кто забоится о себе</p>
+                            </div>
                             <p class="popular-destinations__tour-price">230 $</p>
                         </div>
+                        <p class="hover-text" style="display: none;">Его корни уходят в один фрагмент классической
+                            латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор
+                            латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                            Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
                     </div>
-                <button class="popular-destinations__button">Рейтинг направлений</button>
+
+                </div>
+            </div>
+            <button class="popular-destinations__button">Рейтинг направлений</button>
+        </section>
+        <section id="blog" class="impressions">
+            <div class="impressions-wrapper">
+                <p class="impressions-text">делимся впечатлениями</p>
+                <h7 class="impressions-title">Блог о путешествиях</h7>
+            </div>
+            <div id="carouselExampleFade2" class="carousel slide carousel-fade  impressions-container__cards">
+                <div class="carousel-inner-impression ">
+                    <div class="carousel-item active impressions-cards">
+                        <img src="./images/Rectangle 19.jpg" class="d-block impressions-cards__img" alt="...">
+                        <div class="impressions-wrapper__text">
+                            <h8 class="impressions-cards__title">Красивая Италия, какая она в реальности?</h8>
+                            <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                                предполагает
+                                независимые способы реализации соответствующих условий активизации.</p>
+
+                            <div class="impressions-cards__container-text">
+                                <p class="impressions-cards-date">01/04/2023</p>
+                                <p class="impressions-cards-read">читать статью</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item impressions-cards">
+                        <img src="./images/Rectangle 19 (1).jpg" class="d-block impressions-cards__img" alt="...">
+                        <div class="impressions-wrapper__text">
+                            <h8 class="impressions-cards__title"> Как подготовиться к путешествию в одиночку? </h8>
+                            <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                                предполагает.
+                            </p>
+                            <div class="impressions-cards__container-text">
+                                <p class="impressions-cards-date">01/04/2023</p>
+                                <p class="impressions-cards-read">читать статью</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item impressions-cards">
+                        <img src="./images/Rectangle 19 (2).jpg" class="d-block impressions-cards__img" alt="...">
+                        <div class="impressions-wrapper__text">
+
+                            <h8 class="impressions-cards__title">Долой сомнения! Весь мир открыт для вас!</h8>
+                            <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                                предполагает
+                                независимые способы реализации соответствующих условий активизации.</p>
+
+                            <div class="impressions-cards__container-text">
+                                <p class="impressions-cards-date">01/04/2023</p>
+                                <p class="impressions-cards-read">читать статью</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item impressions-cards">
+                        <img src="./images/Rectangle 19(3).jpg" class="d-block impressions-cards__img" alt="...">
+                        <div class="impressions-wrapper__text">
+
+                            <h8 class="impressions-cards__title">Индия ... летим?</h8>
+                            <p class="impressions-cards__subtitle">Для современного мира базовый.</p>
+
+                            <div class="impressions-cards__container-text">
+                                <p class="impressions-cards-date">01/04/2023</p>
+                                <p class="impressions-cards-read">читать статью</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon carousel-control-impressions" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleFade2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon carousel-control-impressions" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+            <button class="impressions-more">Другие материалы</button>
+
+        </section>
+        <section id="blog-laptop" class="impressions impressions-laptop">
+            <div class="impressions-wrapper">
+                <p class="impressions-text">делимся впечатлениями</p>
+                <h7 class="impressions-title">Блог о путешествиях</h7>
+            </div>
+            <div class="impressions-container__cards">
+                <div class="impressions-cards ">
+                    <img src="./images/Rectangle 19.jpg" alt="фото Италии" class="impressions-cards__img ">
+                    <div class="impressions-wrapper__text">
+                        <h8 class="impressions-cards__title">Красивая Италия, какая она в реальности?</h8>
+                        <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                            предполагает
+                            независимые способы реализации соответствующих условий активизации.</p>
+
+                        <div class="impressions-cards__container-text">
+                            <p class="impressions-cards-date">01/04/2023</p>
+                            <p class="impressions-cards-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" impressions-cards ">
+                    <img src="./images/Rectangle 19 (1).jpg" alt="фото девушки" class="impressions-cards__img ">
+                    <div class="impressions-wrapper__text">
+                        <h8 class="impressions-cards__title"> Как подготовиться к путешествию в одиночку? </h8>
+                        <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                            предполагает.
+                        </p>
+                        <div class="impressions-cards__container-text">
+                            <p class="impressions-cards-date">01/04/2023</p>
+                            <p class="impressions-cards-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="impressions-cards ">
+                    <img src="./images/Rectangle 19 (2).jpg" alt="фото крыла самолета" class="impressions-cards__img">
+                    <div class="impressions-wrapper__text">
+                        <h8 class="impressions-cards__title">Долой сомнения! Весь мир открыт для вас!</h8>
+                        <p class="impressions-cards__subtitle">Для современного мира базовый вектор развития
+                            предполагает
+                            независимые способы реализации соответствующих условий активизации.</p>
+                        <div class="impressions-cards__container-text">
+                            <p class="impressions-cards-date">01/04/2023</p>
+                            <p class="impressions-cards-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="impressions-cards">
+                    <img src="./images/Rectangle 19(3).jpg" alt="фото Индии" class="impressions-cards__img d-block">
+                    <div class="impressions-wrapper__text">
+                        <h8 class="impressions-cards__title">Индия ... летим?</h8>
+                        <p class="impressions-cards__subtitle">Для современного мира базовый.</p>
+                        <div class="impressions-cards__container-text">
+                            <p class="impressions-cards-date">01/04/2023</p>
+                            <p class="impressions-cards-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="impressions-more">Другие материалы</button>
+            </div>
+        </section>
+        <section class="photo">
+            <div class="impressions-wrapper photo-wrapper">
+                <p class="photo-text impressions-text">фото-отчет</p>
+                <h6 class="photo-title impressions-title">Делимся впечатлениями</h6>
+            </div>
+            <div id="carouselExampleFade3" class="carousel slide carousel-fade photo-carousel-wrapper">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/Rectangle 20.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Rectangle 21.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Rectangle 22.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Rectangle 23.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Rectangle 24.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Rectangle 25.jpg" class="d-block photo-img" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <button class="impressions-more photo-more">Наш pinterest</button>
+        </section>
+        <section class="photo photo-laptop">
+            <div class="impressions-wrapper photo-wrapper">
+                <p class="photo-text impressions-text">фото-отчет</p>
+                <h6 class="photo-title impressions-title">Делимся впечатлениями</h6>
+            </div>
+            <div class="photo-container">
+                <img src="./images/Rectangle 20.jpg" class=" photo-img a" alt="...">
+                <img src="./images/Rectangle 21.jpg" class=" photo-img b" alt="...">
+                <img src="./images/Rectangle 22.jpg" class=" photo-img c" alt="...">
+                <img src="./images/Rectangle 24.jpg" class=" photo-img d" alt="...">
+                <img src="./images/Rectangle 23.jpg" class=" photo-img e" alt="...">
+                <img src="./images/Rectangle 25.jpg" class=" photo-img f" alt="...">
+            </div>
+            </div>
+            <button class="impressions-more photo-more">Наш pinterest</button>
+        </section>
+        <section class="email">
+            <div class="email-wrapper">
+                <p class=" impressions-text">фото-отчет</p>
+                <h6 class="email-title impressions-title">Делимся впечатлениями</h6>
+                <label for="email">Введите e-mail адрес</label>
+                
+                <p><input class="email-input" type="email" name="email" id="email" placeholder="name@domain.com"
+                        required></p>
+                <span class="error-message" style="color: red; display: none;"></span>
+
+                <button class="impressions-more email-more">Подписаться на новости</button>
+                <p class="email-subtitle">подписываясь на новости, вы автоматически соглашаетесь с <u> условиями
+                        обработки
+                        персональных данных</u> и <u>правилами рекламных рассылок</u></p>
+            </div>
+        </section>
+        <section class="email email-laptop">
+            <div class="email-wrapper email-laptop__wrapper">
+                <div class="email-text-wrapper__laptop">
+                    <p class=" impressions-text email-title-yellow">фото-отчет</p>
+                    <h6 class="email-title impressions-title">Получайте полезные рассылки о путешествиях</h6>
+                </div>
+                <div class="email-input-wrapper__laptop">
+                    <label for="email">Введите e-mail адрес</label>
+                    <div class="wrapper-input">
+                        <div class="wrapper__error">
+                    
+             
+                            <p><input class="email-input" type="email" name="email" id="email" placeholder="name@domain.com"
+                                    required></p>
+                            <span class="error-message" style="color: red; display: none;"></span>
+                        </div>
+
+                        <button class="impressions-more email-more">Подписаться на новости</button>
+                    </div>
+                    <p class="email-subtitle">подписываясь на новости, вы автоматически соглашаетесь с <u> условиями
+                            обработки
+                            персональных данных</u> и <u>правилами рекламных рассылок</u></p>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
+        <div class="footer__wrapper">
+            <div class=" footer__column-one">
+                <h6 class="footer__title">Компания «РумТибет»</h6>
+                <p class="footer__subtitle">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть
+                    более
+                    двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</p>
+                <div class="footer__text-wrapper">
+                    <p class="footer__text">info@domain.com</p>
+                    <p class="footer__text">+7 (123) 456-78-90</p>
+                </div>
+                <nav class="footer__icon-wrapper">
+                    <a> <img src="./images/Vector.svg" alt=""></a>
+                    <a> <img src="./images/Vector1.svg" alt=""></a>
+                    <a> <img src="./images/Vector2.svg" alt=""></a>
+                    <a> <img src="./images/Vector3.svg" alt=""></a>
+                </nav>
+            </div>
+            <div class="footer__column footer__column-two">
+                <h6 class="footer__title">Наши услуги</h6>
+                <ul class="footer__service">
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Прогулки в горы
+                        летом </li>
+                    <li class="footer__service-item"> <img src="/images/strela.svg" alt="" class=""> Зимние походы в
+                        горы </li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Посещение храмов в
+                        горах </li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Экстремальные виды
+                        туризма </li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Походы в джунглях
+                        Амазонии <p class="new__text">new</p>
+                    </li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Поездка в Африку
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__column footer__column-three">
+                <h6 class="footer__title">Важно для путешествий</h6>
+                <ul class="footer__service">
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Как собрать в
+                        долгий поход? </li>
+                    <li class="footer__service-item"> <img src="/images/strela.svg" alt="" class=""> Жизненно важные
+                        предметы для похода </li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Медицинская
+                        страховка, гарантии безопасности</li>
+                    <li class="footer__service-item"> <img src="./images/strela.svg" alt="" class=""> Если вы врач -
+                        загляните сюда</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__subtitle-wrapper">
+            <p class="footer__subtitle-black">ИП Константинопольский К.К., 2023</p>
+            <p class="footer__subtitle-black"><u>Политика обработки персональных данных</u></p>
+        </div>
     </footer>
+    <section class="popup ">
+        <div class="popup__container popup__container-menu">
+            <a href="#gid" class="popup__menu-text"> <img src="./images/strela.svg" alt="" class=""> Про гида</a>
+            <a href="#program" class="popup__menu-text"> <img src="./images/strela.svg" alt="" class=""> Программа
+                тура</a>
+            <a href="#price" class="popup__menu-text"> <img src="./images/strela.svg" alt="" class=""> Стоимость</a>
+            <a href="#blog" class="popup__menu-text"> <img src="./images/strela.svg" alt="" class=""> Блог</a>
+            <a href="#contacts" class="popup__menu-text"> <img src="./images/strela.svg" alt="" class=""> Контакты</a>
+
+        </div>
+        <button class="popup__close-button popup__close-button-menu" type="button"> </button>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>

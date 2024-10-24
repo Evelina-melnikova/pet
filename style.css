@@ -1,0 +1,2570 @@
+@import url('https://fonts.google.com/share?selection.family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000');
+
+.page {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.first-img {
+    background-image: url(./images/Rectangle\ 1.jpg);
+    width: 100%;
+    height: 985px;
+    background-size: cover;
+}
+
+.header {
+    width: 60%;
+    height: 72px;
+    padding-top: 16px;
+    gap: 212px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: none;
+}
+
+
+.header_logo {
+    max-width: 137px;
+    max-height: 72px;
+}
+
+.header__nav {
+    gap: 24px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    align-items: center
+}
+
+.header__nav-button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-align: left;
+    color: rgba(253, 253, 253, 1);
+    background: rgba(26, 62, 62, 1);
+    width: 157px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.nav_text {
+    text-decoration: none;
+    color: #FDFDFD;
+    border: none;
+    padding: 0;
+    background: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.55px;
+    text-align: left;
+    max-width: 141px;
+    height: 25px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.first-img_title {
+    font-family: 'NEXT ART', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FDFDFD;
+    margin-bottom: 0;
+    margin-top: 463px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.program_search {
+    width: 1137px;
+    height: 121px;
+    gap: 24px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+    padding-top: 40px;
+    padding-left: 43px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program_search-text {
+    width: 210px;
+    padding: 14px 16px 14px 16px;
+    gap: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(253, 253, 253, 1);
+    margin-bottom: 0;
+    margin-top: 8px;
+    width: 254px;
+    height: 21px;
+}
+
+.location-button {
+    background-image: url(./images/ep_arrow-down.svg);
+}
+
+.hike-button {
+    background-image: url(./images/formkit_date.svg);
+}
+
+.participants-button {
+    background-image: url(./images/ep_arrow-down.svg);
+}
+
+.program_search-button {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.program_search-container {
+    border-radius: 8px;
+    width: 305px;
+    display: flex;
+    border: 1px solid rgba(225, 227, 228, 1);
+    background: transparent;
+    color: rgba(253, 253, 253, 1);
+    width: 270px;
+    height: 52px;
+    align-items: center;
+    box-shadow: 0px 4px 20px 0px #282828;
+}
+
+.program_search-find {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-align: left;
+    color: rgba(26, 62, 62, 1);
+    width: 213px;
+    height: 54px;
+    text-align: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-tour_container {
+    width: 1180px;
+    height: 526px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    position: relative;
+    justify-content: space-between
+}
+
+.about-tour__img {
+    border-radius: 24px;
+    width: 350px;
+    height: 400px;
+}
+
+.about-tour__img-left {
+    position: absolute;
+}
+
+.about-tour__img-right {
+    top: 126px;
+    left: 130px;
+    position: absolute;
+}
+
+.play {
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    opacity: 0px;
+    margin-top: 301px;
+    margin-left: 280px;
+    cursor: pointer;
+}
+
+.about-tour_container-text {
+    margin-left: 250px;
+    width: 580px;
+    height: 398px;
+    /* gap: 40px; */
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-tour__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(242, 190, 34, 1);
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.about-tour__title {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left;
+    color: rgba(24, 18, 30, 1);
+    margin-bottom: 40px;
+}
+
+.about-tour__subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(24, 18, 30, 1);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.about-tour__button {
+    width: 200px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(26, 62, 62, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-align: left;
+    color: rgba(253, 253, 253, 1);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (min-width:320px) {
+    .header {
+        width: 96%;
+        height: 44px;
+    }
+
+    .header__menu {
+        background-image: url(./images/heroicons-solid_menu-alt-3.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        display: block;
+    }
+
+    .header_logo {
+        max-width: 65px;
+        min-height: 44px;
+
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .first-img {
+        height: 600px;
+    }
+
+    .first-img_title {
+        width: 83%;
+        margin-top: 234px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+
+    }
+
+    .program_search {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+        padding: 0;
+        width: 90%;
+        height: 54px;
+    }
+
+    .program_search-wrapper {
+        display: none;
+    }
+
+    .program_search-find {
+        width: 100%;
+    }
+
+    .about-tour_container {
+        width: 316px;
+        height: 930px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about-tour_container-img {
+        position: absolute;
+    }
+
+    .about-tour__img {
+        border-radius: 24px;
+        width: 315px;
+        height: 360px;
+    }
+
+    .about-tour__img-left {
+        display: none;
+    }
+
+    .about-tour__img-right {
+        top: 505px;
+        left: 0;
+    }
+
+    .play {
+        width: 50px;
+        z-index: 4;
+        position: relative;
+        height: 50px;
+        /* margin-bottom: 0px; */
+        margin-top: 660px;
+        margin-left: 135px;
+    }
+
+    .about-tour_container-text {
+        margin-left: 0;
+        width: 100%;
+        height: 480px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .about-tour__text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .about-tour__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;
+        margin-bottom: 24px;
+    }
+
+    .about-tour__subtitle {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 24px;
+    }
+
+    .about-tour__button {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+    }
+
+    .best-programs {
+        background: rgba(243, 245, 244, 1);
+        width: 100%;
+        height: 840px;
+    }
+
+    .best-programs__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+    }
+
+    .best-programs__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .best-programs_paragraph {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .best-programs__wrapper {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .best-programs_container {
+        width: 309px;
+        height: 725px;
+        padding-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+
+    .best-programs__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px;
+        align-self: center;
+        display: block;
+    }
+
+    .best-programs__wrapper-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .best-programs__button {
+        width: 100%;
+        height: 52px;
+        /* padding: 16px 36px 16px 36px; */
+        border-radius: 4px;
+        opacity: 0px;
+        background: rgba(26, 62, 62, 1);
+        margin-top: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs__container_image {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: 220px 220px;
+        grid-template-rows: 220px;
+        width: 461px;
+        height: 459px;
+        display: none;
+    }
+
+
+    .best-programs__image {
+        width: 220px;
+        height: 220px;
+        gap: 0px;
+    }
+
+    .best-programs__image-one,
+    .best-programs__image-four {
+        border-radius: 0 50px / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+
+    .best-programs__image-two,
+    .best-programs__image-three {
+        border-radius: 50px 0 / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+
+    .popular-destinations__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0 0 10px 0;
+    }
+
+    .popular-destinations__title {
+        margin: 0 0 32px 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 28.8px;
+        text-align: left;
+
+
+    }
+
+    .popular-destinations {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular-destinations__laptop {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: absolute;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-block {
+        width: 100%;
+        height: 400px;
+        border-radius: 32px;
+    }
+
+    .popular-destinations_wrapper {
+        width: 285px;
+    }
+
+    .popular-destinations__rating {
+        position: absolute;
+        width: 70px;
+        height: 32px;
+        top: 36.8px;
+        left: 215px;
+        padding: 4px 8px 4px 8px;
+        gap: 10px;
+        border-radius: 4px 0px 0px 4px;
+        opacity: 0px;
+        background: #FDFDFD66;
+        display: flex;
+        align-items: center;
+    }
+
+    .popular-destinations_wrapper-laptop {
+        display: none;
+    }
+
+    .carousel-control {
+        top: 210px;
+        position: absolute;
+    }
+
+    .popular-destinations__rating-img {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        /* top: 50px;
+        left: 241px; */
+        /* margin-left: 8px; */
+    }
+
+    .popular-destinations__rating-number {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        color: #1A3E3E;
+        position: relative;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        /* margin-right: 8px; */
+    }
+
+    .popular-destinations__tour {
+        width: 100%;
+        position: absolute;
+        height: 69px;
+        top: 331px;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF33;
+        backdrop-filter: blur(2px);
+        border-radius: 0px 0px 32px 32px;
+    }
+
+
+
+    .popular-destinations__tour-name {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+        color: #FDFDFD;
+        margin: 0;
+    }
+
+    .popular-destinations__tour-price {
+        background: #FFFFFF4D;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        color: #FDFDFD;
+        margin: 0;
+        width: 67px;
+        height: 30px;
+        padding: 6px 12px 6px 12px;
+        border-radius: 4px;
+    }
+
+    .popular-destinations__button {
+        border: none;
+        width: 220px;
+        height: 44px;
+        padding: 12px 24px 12px 24px;
+        border-radius: 4px 0px 0px 0px;
+        background: #1A3E3E;
+        margin-top: 32px;
+        margin-bottom: 50px;
+
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: #FDFDFD;
+    }
+
+    .impressions {
+        background: #F3F5F4;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impressions-carousel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-control-impressions {
+        top: 180px;
+        position: absolute;
+    }
+
+    .impressions-container__cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 533px;
+    }
+
+    .impressions-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impressions-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 28.8px;
+        color: #18121E;
+        margin-bottom: 8px;
+
+    }
+
+    .carousel-inner-impression {
+        height: 532px;
+        width: 285px;
+    }
+
+
+    .impressions-text {
+        font-family: sans-serif, 'Nunito Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #F2BE22;
+    }
+
+    .impressions-cards {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 285px;
+        margin-top: 32px;
+        align-items: center;
+    }
+
+    .impressions-carousel {
+        align-items: normal
+    }
+
+
+
+    .impressions-wrapper__text {
+        width: 285px;
+        height: 215px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .impressions-cards__img {
+        width: 285px;
+        height: 280px;
+        border-radius: 6px;
+    }
+
+    .impressions-cards__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: left;
+    }
+
+    .impressions-cards__subtitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .impressions-cards-date {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: #F2BE22;
+    }
+
+    .impressions-cards-read {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: #1A3E3E;
+        cursor: pointer;
+    }
+
+    .impressions-cards-read :hover{
+text-decoration:  1px solid;
+    }
+
+    .impressions-cards__container-text {
+        display: flex;
+        gap: 75px;
+    }
+
+    .impressions-laptop {
+        display: none;
+    }
+
+    .impressions-more {
+        width: 219px;
+        height: 51px;
+        padding: 16px 35px 16px 35px;
+        border-radius: 4px;
+        background: #1A3E3E;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: #FDFDFD;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photo {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .photo-carousel-wrapper {
+        width: 280px;
+        overflow: hidden;
+    }
+
+    .photo-img {
+        object-fit: cover;
+        height: 250px;
+        border-radius: 6px;
+    }
+
+    .photo-more {
+        margin: 0;
+        width: 154px;
+        height: 44px;
+        padding: 12px 24px 12px 24px;
+        border-radius: 4px;
+    }
+
+    .photo-laptop {
+        display: none;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .email-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        height: 371px;
+        box-shadow: 0px 0px 15px 0px #18121E1F;
+        padding: 24px;
+    }
+
+    .email-more {
+        margin: 15px 15px 0 0;
+        width: 240px;
+        height: 44px;
+        padding: 12px 24px 12px 24px;
+    
+    }
+
+    .email-subtitle {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #18121E;
+    }
+
+    .email-text {
+        margin-bottom: 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        color: #18121E;
+
+    }
+
+    .email-input {
+        margin-top: 8px;
+        background: #F3F5F4;
+        border: none;
+        width: 310px;
+        height: 44px;
+        padding: 0px 16px 0px 16px;
+        border-radius: 4px;
+    }
+
+    .email-laptop {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        background: #1A3E3E;
+        /* padding-left: 16px;
+        padding-right: 16px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #F3F5F4;
+        width: 358px;
+        height: 24px;
+        text-align: start;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .footer__subtitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        width: 334px;
+        height: 80px;
+        color: #F3F5F4;
+        text-align: start;
+        margin-bottom: 0;
+        margin-top: 17px;
+        width: 358px;
+    }
+
+    .footer__text-wrapper {
+        display: flex;
+        gap: 24px;
+        color: #F3F5F4;
+        margin-top: 30px;
+        width: 358px;
+    }
+
+    .footer__icon-wrapper {
+        width: 358px;
+        margin-top: 30px;
+    }
+
+    .footer__service {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 0;
+        width: 358px;
+        margin-top: 20px;
+        gap: 16px;
+
+    }
+
+    .footer__service-item {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: #F3F5F4;
+        margin-bottom: 0;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        display: flex;
+        gap: 9px;
+    }
+
+    .footer__service-item:hover {
+        color: #F2BE22;
+    }
+
+    .footer__subtitle-wrapper {
+        margin-top: 80px;
+        background: #18121E;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+
+    }
+
+    .footer__subtitle-black {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .new__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: left;
+        color: #1A3E3E;
+        background: #FFFFFF;
+        width: 44px;
+        height: 20px;
+        padding: 2px 10px 2px 10px;
+        border-radius: 4px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+
+    .popup {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility .6s, opacity .4s linear;
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .popup__container {
+        width: 290px;
+        height: 535px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: auto;
+        background: #142129;
+        padding-top: 50px;
+        /* width: 258px;
+        height: 154px; */
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 16px;
+    }
+
+    .popup_opened {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+
+    }
+
+    .popup__close-button-menu {
+        background-image: url(./images/close_icon.svg);
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: cover;
+        cursor: pointer;
+        right: 32px;
+        top: 15px;
+        position: relative;
+
+    }
+
+    .popup__menu-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: #FDFDFD;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .popup__menu-text:hover {
+        color: #F2BE22;
+        text-decoration: underline;
+    }
+
+
+    .error-message{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+       
+    }
+
+}
+
+@media screen and (min-width:780px) {
+    .header {
+        width: 93%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .first-img {
+        height: 900px;
+    }
+
+    .program_search {
+        width: 36%;
+        height: 410px;
+        gap: 24px;
+        gap: 24px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        padding-top: 40px;
+        padding-left: 43px;
+        backdrop-filter: blur(2px);
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center
+    }
+
+    .program_search-find {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(26, 62, 62, 1);
+        width: 213px;
+        height: 54px;
+        text-align: center;
+        gap: 10px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .program_search-wrapper {
+        display: block;
+    }
+
+    .about-tour_container {
+        width: 630px;
+        height: 790px;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about-tour_container-img {
+        position: absolute;
+    }
+
+    .about-tour__img {
+        border-radius: 24px;
+        width: 315px;
+        height: 360px;
+    }
+
+    .about-tour__img-left {
+        display: none;
+    }
+
+    .about-tour__img-right {
+        top: 425px;
+        left: 0;
+    }
+
+    .play {
+        width: 50px;
+        z-index: 4;
+        position: relative;
+        height: 50px;
+        /* margin-bottom: 0px; */
+        margin-top: 577px;
+        margin-left: 135px;
+    }
+
+    .about-tour_container-text {
+        margin-left: 0;
+        width: 580px;
+        height: 398px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .about-tour__text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .about-tour__title {
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 25.4px;
+        margin-bottom: 40px;
+    }
+
+    .about-tour__subtitle {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+
+    .about-tour__button {
+        width: 185px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+    }
+
+    .best-programs {
+        background: rgba(243, 245, 244, 1);
+        width: 100%;
+        height: 770px;
+    }
+
+    .best-programs__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+    }
+
+    .best-programs__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .best-programs_paragraph {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .best-programs__wrapper {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .best-programs_container {
+        width: 650px;
+        height: 640px;
+        padding-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+
+    .best-programs__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px;
+        align-self: center;
+        display: block;
+    }
+
+    .best-programs__wrapper-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .best-programs__button {
+        width: 100%;
+        height: 52px;
+        /* padding: 16px 36px 16px 36px; */
+        border-radius: 4px;
+        opacity: 0px;
+        background: rgba(26, 62, 62, 1);
+        margin-top: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs__container_image {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: 220px 220px;
+        grid-template-rows: 220px;
+        width: 461px;
+        height: 459px;
+        display: none;
+    }
+
+
+    .best-programs__image {
+        width: 220px;
+        height: 220px;
+        gap: 0px;
+    }
+
+    .best-programs__image-one,
+    .best-programs__image-four {
+        border-radius: 0 50px / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+
+    .best-programs__image-two,
+    .best-programs__image-three {
+        border-radius: 50px 0 / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .header {
+        width: 98%;
+        height: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 174px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header_logo {
+        max-width: 105px;
+        max-height: 70px;
+    }
+
+    .nav_text {
+        font-size: 15px;
+    }
+
+    .header__nav-button {
+        margin-left: 10px;
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+        padding: 11px 15px 11px 15px;
+    }
+
+    .header__nav {
+        gap: 19px;
+        display: flex;
+    }
+
+    .first-img {
+        height: 823px;
+    }
+
+    .first-img_title {
+        width: 550px;
+        margin-top: 298px;
+        margin-left: auto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .program_search {
+        width: 87%;
+        height: 222px;
+        gap: 30px;
+        row-gap: 33px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        padding-top: 40px;
+        backdrop-filter: blur(2px);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .program_search-container {
+        width: 255px;
+        height: 47px;
+    }
+
+    .program_search-text {
+        width: 180px;
+        padding: 14px 16px 14px 16px;
+        gap: 8px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .about-tour_container {
+        width: 975px;
+        height: 526px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about-tour__img {
+        border-radius: 24px;
+        width: 276px;
+        height: 340px;
+    }
+
+    .about-tour__img-left {
+        display: block;
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    .about-tour__img-right {
+        top: 91px;
+        left: 79px;
+        position: absolute;
+    }
+
+    .play {
+        z-index: 3;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        opacity: 0px;
+        margin-top: 237px;
+        margin-left: 195px;
+        cursor: pointer;
+        pointer-events: none;
+
+    }
+
+    .about-tour_container-text {
+        margin-left: 438px;
+        width: 580px;
+        height: 398px;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .about-tour__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .about-tour__title {
+        margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 40px;
+    }
+
+    .about-tour__subtitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .about-tour__button {
+        width: 200px;
+        height: 52px;
+        gap: 10px;
+        border-radius: 4px;
+        background: rgba(26, 62, 62, 1);
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs {
+        background: rgba(243, 245, 244, 1);
+        width: 100%;
+        height: 750px;
+    }
+
+    .best-programs__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+    }
+
+    .best-programs__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .best-programs_paragraph {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .best-programs__wrapper {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .best-programs_container {
+        width: 930px;
+        height: 643px;
+        padding-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 55px;
+        align-items: center;
+    }
+
+    .best-programs__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px;
+        align-self: center;
+        display: block;
+    }
+
+    .best-programs__wrapper-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .best-programs__button {
+        width: 200px;
+        height: 45px;
+        /* padding: 16px 36px 16px 36px; */
+        border-radius: 4px;
+        opacity: 0px;
+        background: rgba(26, 62, 62, 1);
+        margin-top: 35px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs__container_image {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 240px;
+        width: 505px;
+        height: 512px;
+
+    }
+
+
+    .best-programs__image {
+        width: 240px;
+        height: 240px;
+        pointer-events: none;
+
+    }
+
+    .best-programs__image-one,
+    .best-programs__image-four {
+        border-radius: 0 50px / 50px;
+        background: rgba(243, 245, 244, 1);
+        width: 240px;
+        height: 240px;
+        pointer-events: none;
+
+    }
+
+    .best-programs__image-two,
+    .best-programs__image-three {
+        border-radius: 50px 0 / 50px;
+        background: rgba(243, 245, 244, 1);
+        pointer-events: none;
+
+    }
+
+    .popup {
+
+        display: none;
+
+
+    }
+}
+
+/* @media screen and (min-width:1235px) {
+    .program_search {
+        width: 90%;
+        height: 90px;
+    }
+} */
+
+@media screen and (min-width:1280px) {
+
+    .header {
+        width: 79%;
+    }
+
+    .first-img_title {
+        font-family: 'NEXT ART', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #FDFDFD;
+        margin-bottom: 0;
+        margin-top: 325px;
+        width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        pointer-events: none;
+
+    }
+
+    .first-img {
+        height: 985px;
+        pointer-events: none;
+    }
+
+    .program_search {
+        width: 1137px;
+        height: 255px;
+        gap: 53px;
+        row-gap: 30px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        padding-top: 40px;
+        padding-left: 43px;
+        padding-right: 43px;
+        backdrop-filter: blur(2px);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .program_search-container {
+        border-radius: 8px;
+        width: 305px;
+        display: flex;
+        border: 1px solid rgba(225, 227, 228, 1);
+        background: transparent;
+        color: rgba(253, 253, 253, 1);
+        width: 270px;
+        height: 52px;
+        align-items: center;
+        box-shadow: 0px 4px 20px 0px #282828;
+    }
+
+    .program_search-text {
+        width: 210px;
+        padding: 14px 16px 14px 16px;
+        gap: 8px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .about-tour_container {
+        width: 1180px;
+        height: 526px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about-tour__img {
+        border-radius: 24px;
+        width: 350px;
+        height: 400px;
+        pointer-events: none;
+
+    }
+
+    .about-tour__img-left {
+        display: block;
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    .about-tour__img-right {
+        top: 126px;
+        left: 130px;
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    .play {
+        z-index: 3;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        opacity: 0px;
+        margin-top: 301px;
+        margin-left: 280px;
+        cursor: pointer;
+    }
+
+    .about-tour_container-text {
+        margin-left: 620px;
+        width: 580px;
+        height: 398px;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .about-tour__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .about-tour__title {
+        margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 40px;
+    }
+
+    .about-tour__subtitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .about-tour__button {
+        width: 200px;
+        height: 52px;
+        gap: 10px;
+        border-radius: 4px;
+        background: rgba(26, 62, 62, 1);
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs {
+        background: rgba(243, 245, 244, 1);
+        width: 100%;
+        height: 771px;
+    }
+
+    .best-programs__text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(242, 190, 34, 1);
+        margin: 0;
+    }
+
+    .best-programs__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.4px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .best-programs_paragraph {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: rgba(24, 18, 30, 1);
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    .best-programs__wrapper {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .best-programs_container {
+        width: 1180px;
+        height: 591px;
+        padding-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 90px;
+        align-items: center;
+    }
+
+    .best-programs__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        align-self: center;
+        display: block;
+        pointer-events: none;
+
+    }
+
+    .best-programs__wrapper-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__wrapper-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .best-programs__list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .best-programs__button {
+        width: 236px;
+        height: 52px;
+        /* padding: 16px 36px 16px 36px; */
+        border-radius: 4px;
+        opacity: 0px;
+        background: rgba(26, 62, 62, 1);
+        margin-top: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: rgba(253, 253, 253, 1);
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+
+    .best-programs__container_image {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 252px;
+        width: 510px;
+        height: 510px;
+    }
+
+    /* 
+    .best-programs__image {
+        width: 250px;
+        height: 250px;
+        gap: 0px;
+    } */
+
+    .best-programs__image-one,
+    .best-programs__image-four {
+        border-radius: 0 50px / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+
+    .best-programs__image-two,
+    .best-programs__image-three {
+        border-radius: 50px 0 / 50px;
+        background: rgba(243, 245, 244, 1);
+    }
+
+    .popular-destinations {
+        display: none;
+    }
+
+    .popular-destinations__laptop {
+        display: flex;
+    }
+
+    .popular-destinations__img {
+        display: block;
+        width: 380px;
+        pointer-events: none;
+    }
+
+    .popular-destinations_wrapper-laptop {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+        width: 1005px;
+
+    }
+
+    .carousel-item__laptop {
+        display: block;
+        height: 415px;
+        width: 380px;
+    }
+
+    .carousel-item {
+        display: block;
+    }
+
+    .popular-destinations__rating {
+        position: relative;
+        width: 70px;
+        height: 32px;
+        top: -438.2px;
+        left: 310px;
+        padding: 4px 8px 4px 8px;
+        gap: 10px;
+        border-radius: 4px 0px 0px 4px;
+        opacity: 0px;
+        background: #FDFDFD66;
+        display: flex;
+        align-items: center;
+    }
+
+    .popular-destinations__tour {
+        width: 100%;
+        position: relative;
+        height: 90px;
+        top: -120px;
+        display: flex;
+        gap: 45px;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF33;
+        backdrop-filter: blur(2px);
+        border-radius: 0px 0px 32px 32px;
+        transition:  0.8s ease-in-out;
+
+    }
+
+    /* .popular-destinations__tour:hover{
+        top: -500px;
+        height: 380px;
+    } */
+
+    .hoveredTour {
+    
+      height: 500px;
+      top: -500px;
+        background: #FFFFFF33;
+        backdrop-filter: blur(2px);
+        border-radius: 32px 32px 32px 32px;
+        display: flex;
+        flex-direction: column;
+        transition:  0.8s ease-in-out;
+    }
+
+    .popular-destinations__button {
+        margin-top: 160px;
+    }
+
+
+
+
+    .popular-destinations__rating.visible {
+        display: flex;
+        /* Сделайте его видимым */
+    }
+
+    .popular-destinations__rating:not(.visible) {
+        display: none;
+        /* Скрываем элемент */
+    }
+
+
+    .impressions {
+        display: none;
+    }
+
+    .impressions-laptop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impressions-container__cards {
+        display: grid;
+        grid-template-columns: 580px 580px;
+        column-gap: 40px;
+        height: 687px;
+    }
+
+    .impressions-cards {
+        display: flex;
+        flex-direction: row;
+        height: 312px;
+        width: 580px;
+        margin-top: 32px;
+        align-items: center;
+        column-gap: 15px;
+        background: #FDFDFD;
+        justify-content: center;
+    }
+
+    .impressions-cards__img {
+        width: 230px;
+        height: 280px;
+        pointer-events: none;
+
+    }
+
+    .impressions-wrapper__text {
+        width: 294px;
+        height: 280px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: space-between;
+    }
+
+    .impressions-more {
+        width: 219px;
+        height: 51px;
+        padding: 16px 35px 16px 35px;
+        border-radius: 4px;
+        background: #1A3E3E;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-align: left;
+        color: #FDFDFD;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .photo-laptop {
+        display: flex;
+    }
+
+    .photo-container {
+        display: grid;
+        width: 1180px;
+        grid-template: repeat(2, 1fr) / repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /* Расставляем первые три элемента: A, B и C */
+    .a {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .b {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .c {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .d {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .e {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .f {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        display: flex;
+        pointer-events: none;
+
+    }
+
+    .photo-more {
+        width: 178px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .email-laptop {
+        display: flex;
+
+
+    }
+
+    .email-laptop__wrapper {
+        flex-direction: row;
+        width: 1180px;
+        height: 235px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 64px;
+        z-index: 2;
+        background: white;
+    }
+
+    .email-text-wrapper__laptop {
+        width: 340px;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .email-input-wrapper__laptop {
+        width: 576px;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-text {
+        margin: 0;
+    }
+
+    .email-title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 31.2px;
+        text-align: left;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .email-input {
+        margin: 0;
+    }
+
+    .email-more {
+        margin: 0;
+        width: 255px;
+        height: 50px;
+        padding: 12px 24px 12px 24px;
+        border-radius: 4px;
+
+    }
+
+    .email-subtitle {
+        margin-top: 0;
+    }
+
+    .wrapper-input {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .footer {
+
+        position: relative;
+        top: -152px;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        gap: 75px;
+    }
+
+    .footer__title {
+        margin-top: 180px;
+    }
+
+    .footer__subtitle {
+        width: 456px;
+        height: 60px;
+    }
+
+    .footer__service-item {
+        width: 280px;
+        height: 35px;
+        align-items: center;
+    }
+
+    .footer__service {
+        width: 280px;
+    }
+
+    .footer__column {
+        width: 280px;
+    }
+
+    .footer__subtitle-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 640px;
+    }
+
+    /* .carousel-item__laptop:hover{
+display: block;
+    }
+
+    .popular-destinations__rating:hover{
+display: none;
+    } */
+
+    .hovered {
+        /* Превращения, превращения... */
+        border: none;
+        /* height: 100%; */
+
+    }
+
+    .hover-text {
+       margin-top: 30px;
+       font-family: 'Nunito Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #FDFDFD;
+width: 316px;
+height: 216px;
+
+
+    }
+
+    .popular-destinations__tour-subtitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: #FDFDFD;
+        margin: 0;
+        width: 195px;
+    }
+
+    .wrapper__hover{
+        display: flex;
+        gap: 45px;
+    }
+
+    .error-message{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        padding-button: 5px;
+    }
+    .wrapper__error{
+display: flex;
+ flex-direction: column;
+    }
+}
